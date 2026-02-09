@@ -22,7 +22,7 @@
 
 ### From PyPI (Coming Soon)
 ```bash
-pip install git-scribe
+pip install git-scribe-cli
 ```
 
 ### From Source

@@ -1,5 +1,5 @@
 [project]
-name = "git-scribe"
+name = "git-scribe-cli"
 version = "0.1.0"
 description = "Intelligence Layer between local code changes and remote repository. Automates commit messages and PR descriptions using LLMs."
 readme = "README.md"
