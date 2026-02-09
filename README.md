@@ -1,8 +1,8 @@
-# 🖋️ git-scribe
+# 🖋️ git-scribe-cli
 
 **The Intelligence Layer for your Git workflow.**
 
-`git-scribe` automates the narrative of your code. It turns your changes into meaningful, conventional commit messages and detailed Pull Request descriptions using the power of LLMs (OpenAI GPT-4o). It also acts as a "Team Lead" by performing pre-flight readiness checks before you commit.
+`git-scribe-cli` automates the narrative of your code. It turns your changes into meaningful, conventional commit messages and detailed Pull Request descriptions using the power of LLMs (OpenAI GPT-4o). It also acts as a "Team Lead" by performing pre-flight readiness checks before you commit.
 
 ---
 
@@ -28,7 +28,7 @@ pip install git-scribe-cli
 ### From Source
 ```bash
 git clone https://github.com/yourusername/git-scribe-cli.git
-cd git-scribe
+cd git-scribe-cli
 pip install .
 ```
 
@@ -36,7 +36,7 @@ pip install .
 
 ## ⚙️ Configuration
 
-`git-scribe` requires an OpenAI API Key to function.
+`git-scribe-cli` requires an OpenAI API Key to function.
 
 ```bash
 export OPENAI_API_KEY="sk-..."
