@@ -7,12 +7,9 @@ from typing import Optional
 import os
 import sys
 
-# Add src to path to ensure imports work if run directly
-sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
-
-from src.git_ops import GitOps
-from src.llm import LLMClient
-from src.analysis import Analyzer
+from .git_ops import GitOps
+from .llm import LLMClient
+from .analysis import Analyzer
 
 app = typer.Typer()
 console = Console()
