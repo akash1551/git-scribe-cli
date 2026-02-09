@@ -30,8 +30,8 @@ dependencies = [
 scribe = "git_scribe.main:app"
 
 [project.urls]
-Homepage = "https://github.com/example/git-scribe"
-Repository = "https://github.com/example/git-scribe"
+Homepage = "https://github.com/example/git-scribe-cli"
+Repository = "https://github.com/example/git-scribe-cli"
 
 [build-system]
 requires = ["hatchling"]

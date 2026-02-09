@@ -27,7 +27,7 @@ pip install git-scribe-cli
 
 ### From Source
 ```bash
-git clone https://github.com/yourusername/git-scribe.git
+git clone https://github.com/yourusername/git-scribe-cli.git
 cd git-scribe
 pip install .
 ```
